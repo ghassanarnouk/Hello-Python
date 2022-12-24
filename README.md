@@ -22,6 +22,10 @@ When contributing to this repository, please **first discuss** the changes you w
 
 * **Ghassan Arnouk**
 
+## Textbook Reference
+
+Automate the boring stuff with python (practical programming for total beginners) - by Al Sweigart
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE)
