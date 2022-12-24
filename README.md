@@ -30,4 +30,4 @@ Automate the boring stuff with python (practical programming for total beginners
 
 This project is licensed under the [MIT License](LICENSE)
 
-[LICENSE]: https://github.com/ghassanarnouk/
+[LICENSE]: https://github.com/ghassanarnouk/Hello-Python/blob/main/LICENSE
