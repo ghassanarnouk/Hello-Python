@@ -10,7 +10,7 @@ Make sure you have installed `python3`, `pip3`, `send2trash`, `requests`, `beaut
 
 These instructions will get you a copy of this project up and running on your local machine for **development** and **testing** purposes.
 
-Assuming you have the prerequisites installed, the following commands can be performed on OS X development machines:
+Assuming you have the prerequisites installed, the following example command can be performed on OS X development machines:
 
 `pip3 install selenium`
 
