@@ -50,3 +50,13 @@ A common error message for forgetting the final single quote character at the en
 
 ### String Concatenation and Replication
 
+When `+` is used on two string values, it joins the strings as the *string concatenation* operator.\
+Example
+
+```python
+'This' + 'is' + 'text' = 'Thisistext'
+```
+
+
+
+
