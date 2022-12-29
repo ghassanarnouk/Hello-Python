@@ -13,7 +13,7 @@ Chapter 1: [Python Basics]()
 The Python programming language has a wide range of syntactical constructions, standard library functions, and interactive.
 
 
-Table 1-1 Math Operators from the Highest to Lowest Precedence
+Table 1-1: Math Operators from the Highest to Lowest Precedence
 
 |   Operator | Operation                         |   Example | Evaluates to ...
 | ---------- | -----------                       | --------- | -----------------
@@ -34,7 +34,7 @@ It is always possible to write the precedence of operations using ().
 A *data type* is a category for values, and every value belongs to exactly one data type.
 The most common data types in Python are listed in Table 1-2 below.
 
-Table 1-2 Common Data Types
+Table 1-2: Common Data Types
 
 |      Data Type | Examples                 |
 |    ----------- | ----------               |
@@ -57,6 +57,41 @@ Example
 'This' + 'is' + 'text' = 'Thisistext'
 ```
 
+When `*` operator is used on one string value and one integer value, it becomes the *string replication* operator.\
+Example
 
+```python
+'Alice' * 5 = 'AliceAliceAliceAliceAlice'
+```
+
+### Storing Values in Variables
+
+A *variable* is like a box in the computer's memory where you can store a single value.\
+You'll store values in variables with an *assignment statement*.
+An assignment statement consists of a variable name, an equal sign (called the assignment operator), and the value to be stored.
+
+A variable is initialized (or created) the first time a value is stored in it.
+After that, you can use it in expressions with other variables and values.
+When a variable is assigned a new value, the old value is forgotten.
+This is called *overwriting* the variable.
+
+### Variable Names
+
+1. It can be only one word
+2. It can use only letter, numbers, and an underscore (_)
+
+Table 1-3: Valid and Invalid Variable Names
+
+|   Valid variable names | Invalid variable names                                |
+| ---------------------- | ------------------------                              |
+|                balance | current-balance (hyphens are not allowed)             |
+|         currentBalance | current balance (spaces are not allowed)              |
+|        current_balance | 4account (can't begin with a number)                  |
+|                  _spam | 42 (can't begin with a number)                        |
+|                   SPAM | total_$um (special characters like $ are not allowed) |
+|               account4 | 'hello' (special characters like ' are not allowed)   |
+
+Variable names are case-sensitive, meaning that `spam`, `SPAM`, `Spam`, and `sPaM` are four different variables.
+There is the camelcase for variable names (lookingLikeThis) vs the underscores (looking_like_this).
 
 
